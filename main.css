@@ -1,0 +1,7 @@
+.container * {
+  animation-play-state: paused;
+}
+
+.container.play * {
+  animation-play-state: running !important;
+}

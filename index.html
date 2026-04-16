@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Kamu ❤️</title>
+  <link rel="stylesheet" href="main.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #000;
+      color: white;
+    }
+
+    .intro {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      background: pink;
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: hotpink;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="intro">
+  <div class="intro-content">
+    <h1 id="typingText"></h1>
+    <button onclick="goToFlower()">Buka Hadiah 💖</button>
+  </div>
+</div>
+
+<audio id="bgMusic">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="main.js"></script>
+</body>
+</html>

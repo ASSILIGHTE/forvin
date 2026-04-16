@@ -1,0 +1,16 @@
+{
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "Static flower animation site deployable on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "@vercel/static-build": "^0.0.29"
+  },
+  "repository": {
+    "type": "git",
+    "url": "file://c:/skripsi fariq/flower"
+  }
+}
